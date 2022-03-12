@@ -1,0 +1,21 @@
+#mayikt:
+ # name: whb
+ # age: ${random.int(10)}
+ # sex: 男
+#   application-dev.yml 开发环境的配置文件
+#application-test.yml  测试环境的配置文件
+#application-pro.yml    生产环境的配置文件
+spring:
+  profiles:
+    active: dev      #不同环境下读取配置文件
+#server:
+  #port: 8081      修改Tomcat的访问的端口号
+
+#server:
+ # servlet:
+    #设置访问项目的上下文路径
+  #  context-path:
+
+
+#logging:     配置打印日志，classpath不能丢
+ # config: classpath:log/logback.xml

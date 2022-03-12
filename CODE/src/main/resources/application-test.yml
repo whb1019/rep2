@@ -1,0 +1,4 @@
+mayikt:
+  name: whbtest
+  age: ${random.int(10)}
+  sex: 男test
